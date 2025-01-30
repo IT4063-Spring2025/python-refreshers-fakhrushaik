@@ -18,7 +18,7 @@
 # - 🚩 - Checkpoint; marks a good spot for you to commit your code to git
 # - 🕵️ - Tester; Don't modify code blocks starting with this emoji
 
-# In[28]:
+# In[4]:
 
 
 # 🦉 Usually, the first cell in a notebook, is where'd import all modules and third-party modules.
@@ -363,10 +363,12 @@ else:
 # - 📜 [`numpy.char.add` function](https://numpy.org/doc/stable/reference/generated/numpy.char.add.html)
 # 
 
-# In[45]:
+# In[5]:
 
 
 def get_full_names(first_names, last_names):
+  if len(first_names) != len(last_names):
+        raise ValueError("Both first_names and last_names must have the same length.")
   return np.char.add(np.char.add(first_names, " "), last_names)
 
 sample_first_names = np.array(["Bob", "Jane", "Mallory"])
@@ -377,7 +379,7 @@ print(full_names)
 
 # > 🚩 : Make a git commit here
 
-# In[46]:
+# In[6]:
 
 
 # 🕵️ This code block checks your answer.
@@ -415,7 +417,7 @@ else:
 # 
 # You can apply the changes to the previous cell, all tests should still pass normally
 
-# In[47]:
+# In[7]:
 
 
 # 🕵️ This code block checks your answer.
@@ -441,7 +443,7 @@ else:
 # Remember to update the self reflection and self evaluations on the `README` file.
 # 
 
-# In[2]:
+# In[8]:
 
 
 # 🦉: The following command converts this Jupyter notebook to a Python script.

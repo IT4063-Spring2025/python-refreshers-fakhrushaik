@@ -96,29 +96,32 @@ PYDEVD_DISABLE_FILE_VALIDATION=1 JUPYTER_PLATFORM_DIRS=1 pytest --capture=sys
 ## 💭 Reflection and Self Assessment
 
 **I learned:** (repeat as needed)
-- .
+- I learned: Refreshed my memory of python.
+- I learned: Using numpy.
+- I learned: Using nbconvert.
+- I learned: Using git.
 
 **I struggled with:** (repeat as needed)
-- .
+- I struggled with: Using nbconvert.
 
 **I need the instructor to help me with:** (repeat as needed)
-- .
+- I need the instructor to help me with: Nothing.
 
 **How long did it take you to complete this assignment? and reflect on that**
-[ ] hours.
+[4 ] hours. I completed the assignment in class. I used an hour outside of class to understand the Jupyter nb convert. 
 
 **If I were to do this assignment again, I would:** (repeat as needed)
-- .
+- If I were to do this assignment again, I would: complete in less than a hour.
 
-**💯 Self Grade:** For this assignment, based on my work and my reflections I should get [ ] out of 20.
+**💯 Self Grade:** For this assignment, based on my work and my reflections I should get [20 ] out of 20.
 
 --------------------
 ## 📚 References and Citations
 **I used the following links, books, and other resources in my work:** (repeat as needed)
-- .
+- I used the following links, books, and other resources in my work: Canvas.
   
 **I received help from the following people:** (repeat as needed)
-- . 
+- I received help from the following people: The professor. 
 
 ---
 ## Copyrights and License
